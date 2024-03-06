@@ -30,6 +30,6 @@ GRANT INSERT ON dbo.Computers TO AssetUser;
 -- Deny DELETE and UPDATE permissions on the Computers table
 DENY DELETE, UPDATE ON dbo.Computers TO AssetUser;
 
--- Grant Select to user on perticular Table
-GRANT SELECT ON YourOtherTable TO YourUser;
+-- Grant Select to user on particular Table
+GRANT SELECT ON dbo.Computers TO AssetUser;
 ```
